@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManagerScript : MonoBehaviour {
 
     string TestTextString = "Dearly Beloved, You are like the winter moon, Hanging white-gold in the sky, Both beautiful and with an awakening chill, like a snowflake on the eyelash.";
     string[] splitStrings;
     public GameObject uiTextBoidObject;
+    public Text
     public Canvas canvas;
 
 	// Use this for initialization
@@ -54,5 +56,9 @@ public class GameManagerScript : MonoBehaviour {
             }
         }
 
+    }
+
+    void SpaceBoids ( ){
+        
     }
 }
